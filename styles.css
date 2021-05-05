@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Comfortaa:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(172, 220, 228);
+}
+
+.info_menu {
+    position: absolute;
+    background-color: #4bd838ee;
+    color: #fff;
+    left: 10px;
+    top: 20px;
+    width: 200px;
+    height: 250px;
+    font-family: 'Comfortaa', cursive;
+    padding: 15px;
+}
+
+.info_menu .number {
+    font-family: 'Barlow', sans-serif;
+}
+
+#btnVacunar {
+    position: absolute;
+    width: 87%;
+    border-radius: 15px;
+    border-color: #fff;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    font-size: 16px;
+    bottom: 15px;
+}
+
+.btnVacunarIcon {
+    position: absolute;
+    width: 30px;
+    left: 20px;
+    bottom: 20px;
+}
+
+.mensaje_motivador {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    margin-top: 15%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Comfortaa', cursive;
+    transition-duration: 500ms;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+.show {
+    display: block;
+    opacity: 1;
+}
